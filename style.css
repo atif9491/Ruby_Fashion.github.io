@@ -911,4 +911,10 @@ a.google span {
   .headlines{
     font-size: 1rem;
   }
+  .offer-1{
+    grid-template-areas: none;
+  }
+  .offer-2{
+    grid-template-areas: none;
+  }
 }
