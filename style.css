@@ -126,7 +126,17 @@ header {
   display: grid;
 }
 
-/* .home-computer-container {} */
+#cta{
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--primary-color);
+  height: 4rem;
+  margin-bottom: 20px;
+}
+
+/* .home-container {} */
 
 .slogan .company-title {
   background: -webkit-linear-gradient(120deg,
@@ -180,7 +190,7 @@ header {
   background-color: var(--dark-color);
   padding: 3rem 0;
   width: 9rem;
-  height: 15rem;
+  height: 13rem;
   margin: auto;
 }
 
@@ -892,4 +902,13 @@ a.google span {
     padding: 20px 10px;
   }
 
+}
+
+@media screen and (max-width:802px){
+  .section-1{
+    grid-template-columns: none;
+  }
+  .headlines{
+    font-size: 1rem;
+  }
 }
